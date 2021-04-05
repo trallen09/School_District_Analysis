@@ -1,14 +1,23 @@
-# School_District_Analysis
-##Overview of the school district analysis: Explain the purpose of this analysis.
+### School_District_Analysis
 
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Overview of the school district analysis:
+There is suspicion surrounding the reading and math scores of Thomas High School within the ninth grade. The objective is to replace all the ninth grade scores with NaN and determine if it swings the results. 
 
-How is the district summary affected?
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Results:
+
+1. How is the district summary affected? There was very little impact on the district summary
+2. How is the school summary affected? Thomas High School went from 65% overall to 90% by removing the 9th graders
+3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools? There was a 25% incresae in overall score.
+4. How does replacing the ninth-grade scores affect the following:
+    - Math and reading scores by grade
+    - Scores by school spending negligable
+    - Scores by school size negligable
+    - Scores by school type negligable
+
+
+
+## Resources
+- Data Source: schools_complete.csv & students_complete.csv
+- Software: Python 3.7.6, Visual Studuo Code, 1.54.3
+
+
